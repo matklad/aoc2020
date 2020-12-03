@@ -1,2 +1,4 @@
 .Bugs
 - Missed `.unwrap` on `.read_to_string()`.
+- Unused import `ops`.
+- Variable `pat` not declared `mut`.
