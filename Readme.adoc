@@ -2,3 +2,7 @@
 - Missed `.unwrap` on `.read_to_string()`.
 - Unused import `ops`.
 - Variable `pat` not declared `mut`.
+- Missing `&` in `binary_search(&name)`.
+- Variables `xxx_valid` not declared `mut`.
+- Missed `#` condition from the statement.
+- When adding `#`, forgot to actually update len to 7.
