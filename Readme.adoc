@@ -6,3 +6,4 @@
 - Variables `xxx_valid` not declared `mut`.
 - Missed `#` condition from the statement.
 - When adding `#`, forgot to actually update len to 7.
+- Messed up `buf[0]` vs `buf[i]`.
