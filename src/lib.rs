@@ -1,4 +1,8 @@
+mod interner;
+
 use std::io::{self, Read};
+
+pub use crate::interner::Interner;
 
 pub fn read_stdin() -> io::Result<String> {
   let mut buf = String::new();

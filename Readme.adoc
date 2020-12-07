@@ -7,3 +7,8 @@
 - Missed `#` condition from the statement.
 - When adding `#`, forgot to actually update len to 7.
 - Messed up `buf[0]` vs `buf[i]`.
+- `Interner: !Default`
+- Extra semicolon at the end of the function.
+- `mut` is required for `g.add_node("shiny gold")` after parsing.
+- `.unwrap()` when parsing last word.
+- Off by one in the answer: empty bag is forbidden.
