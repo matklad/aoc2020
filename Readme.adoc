@@ -12,3 +12,4 @@
 - `mut` is required for `g.add_node("shiny gold")` after parsing.
 - `.unwrap()` when parsing last word.
 - Off by one in the answer: empty bag is forbidden.
+- Missed `mut` on `let diffs = [0u32; 4];`
