@@ -13,3 +13,9 @@
 - `.unwrap()` when parsing last word.
 - Off by one in the answer: empty bag is forbidden.
 - Missed `mut` on `let diffs = [0u32; 4];`
+- Forgot residual `self` in a `move` closure.
+- Forgot to fix signature after changing `-> Option<T>` to `-> T`.
+- Typo: `filter_map` vs `flat_map`. Tricked by an IDE, type hints worked.
+- Changed logic to return items rather than indices, which broke result type.
+- Forgot `move` on closures.
+- Forgot to multiply velocity by time.
