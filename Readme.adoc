@@ -19,3 +19,4 @@
 - Changed logic to return items rather than indices, which broke result type.
 - Forgot `move` on closures.
 - Forgot to multiply velocity by time.
+- Rotate `rot` instead of `wp`.
