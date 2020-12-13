@@ -3,3 +3,6 @@ name = "aoc2020"
 version = "0.0.0"
 authors = ["Aleksey Kladov <aleksey.kladov@gmail.com>"]
 edition = "2018"
+
+[dependencies]
+num-bigint = "0.3"

@@ -20,3 +20,9 @@
 - Forgot `move` on closures.
 - Forgot to multiply velocity by time.
 - Rotate `rot` instead of `wp`.
+- Unused `id`.
+- `.lines()` trims `\n` while `.read_line` does not.
+- Missed `x`es.
+- Forgot to update `.parse::<i32>` to `.parse::<i64>`.
+- Typo `==` vs `=`.
+- Used `x` instead of `d`.
