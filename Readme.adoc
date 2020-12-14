@@ -26,3 +26,8 @@
 - Forgot to update `.parse::<i32>` to `.parse::<i64>`.
 - Typo `==` vs `=`.
 - Used `x` instead of `d`.
+- Forgot `&mut buf`.
+- Borked rename.
+- Needless `.rev()`.
+- Forgot to update `usize` to `u64`.
+- Loop-and-a-half error.
