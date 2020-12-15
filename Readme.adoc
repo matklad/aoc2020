@@ -31,3 +31,5 @@
 - Needless `.rev()`.
 - Forgot to update `usize` to `u64`.
 - Loop-and-a-half error.
+- `insert(t1, t2)` => `insert(x, (t1, t2))`.
+- unused `hash_map`, `t2`.
