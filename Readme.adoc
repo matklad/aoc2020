@@ -32,4 +32,7 @@
 - Forgot to update `usize` to `u64`.
 - Loop-and-a-half error.
 - `insert(t1, t2)` => `insert(x, (t1, t2))`.
-- unused `hash_map`, `t2`.
+- Unused `hash_map`, `t2`.
+- Updated `..` to `..=`, forgot to update `Range` to `RangeInclusive`.
+- Used `(X, X)` instead of `[X; 2]`.
+- Mixed `all` / `any`.
