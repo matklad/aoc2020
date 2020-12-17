@@ -36,3 +36,5 @@
 - Updated `..` to `..=`, forgot to update `Range` to `RangeInclusive`.
 - Used `(X, X)` instead of `[X; 2]`.
 - Mixed `all` / `any`.
+- `HashMap::insert` returns a `bool`.
+- Printing map from previous step.
