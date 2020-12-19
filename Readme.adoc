@@ -38,3 +38,5 @@
 - Mixed `all` / `any`.
 - `HashMap::insert` returns a `bool`.
 - Printing map from previous step.
+- Missed `mut`
+- Wrong precedence
