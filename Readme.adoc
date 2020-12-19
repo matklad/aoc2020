@@ -38,5 +38,11 @@
 - Mixed `all` / `any`.
 - `HashMap::insert` returns a `bool`.
 - Printing map from previous step.
-- Missed `mut`
-- Wrong precedence
+- Missed `mut`.
+- Wrong precedence.
+- Missed `derive(Clone)` for `resize`.
+- Forgot to return a value from a block.
+- `.ok()` instead of `.map_err(drop)`.
+- Forgot `mut`.
+- Use the same rule twice in Alt.
+- Typo `rule` vs `rules`.
